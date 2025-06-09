@@ -4,3 +4,10 @@ for (index, function) in [level1, level2, level3, level4, level5].enumerated() {
     function()
     print("--------------------")
 }
+
+// 도전 문제
+for (index, function) in [level6].enumerated() {
+    print("<도전 문제 \(index + 1)>")
+    function()
+    print("--------------------")
+}
