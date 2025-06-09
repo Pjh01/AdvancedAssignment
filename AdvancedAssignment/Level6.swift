@@ -46,10 +46,10 @@ class HybridCar: Car {
 }
 
 func level6() {
-    let car1 = ElectricCar(brand: "Tesla", model: "Model1", year: "2025")
+    let car1 = ElectricCar(brand: "Tesla", model: "Model 3", year: "2025")
     car1.drive()
     
-    let car2 = HybridCar(brand: "Sonata", model: "Model2", year: "2025")
+    let car2 = HybridCar(brand: "Hyundai", model: "Sonata", year: "2025")
     car2.drive()
     car2.switchEngine(to: .ElectricEngine)      // 엔진 변경
     car2.drive()
